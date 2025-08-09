@@ -1,4 +1,4 @@
-# 代码很便宜，让我看看你的聊天记录
+# Code is cheap, show me your Chat !
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
@@ -41,3 +41,4 @@
 [链接](https://gist.github.com/)
 
 只需复制内容并粘贴到 Gist 网站。点击更多选项，然后点击 `Create public gist` 按钮获取分享链接。
+
