@@ -1,0 +1,86 @@
+name: AI Issue Labeler
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: AI Issue Labeler
+        uses: Disdjj/labeler@v1.0.4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          api-key: ${{ secrets.AI_API_KEY }}
+          base-url: ${{ secrets.AI_BASE_URL }}
+          model: 'gpt-5-mini'
+          prompt: |
+            You are a GitHub Issue labeling assistant. Analyze the Issue title and body and select ALL applicable labels STRICTLY from the existing labels list. Never invent labels; never duplicate labels.
+
+            # Labeling System
+            Apply labels from these dimensions if they exist in {existing_labels}:
+
+            1) Content Type (Required - select one or more based on content):
+               - 聊天记录 / chat-record (for AI chat conversation records)
+               - 提示词 / prompt (for AI prompt templates)
+               - 反馈 / feedback (for feedback and suggestions)
+
+            2) Language (Select if determinable):
+               - 中文 (for Chinese content)
+               - english (for English content)
+
+            3) AI Platform (Select if mentioned):
+               - ChatGPT
+               - Claude
+               - Gemini
+
+            4) Chat Content Categories (Select if applicable for chat records):
+               - 编程 / programming
+               - 创意写作 / creative-writing
+               - 问题解决 / problem-solving
+               - 学习教育 / learning-education
+               - 生活助手 / life-assistant
+
+            5) Prompt Application Scenarios (Select if applicable for prompts):
+               - 编程开发 / programming-development
+               - 文案写作 / copywriting
+               - 数据分析 / data-analysis
+               - 创意设计 / creative-design
+               - 学习教育 / learning-education
+               - 商业应用 / business-application
+
+            6) Feedback Categories (Select if applicable for feedback):
+               - 平台功能建议 / platform-feature-suggestion
+               - 聊天记录评价 / chat-record-review
+               - 提示词评价 / prompt-review
+               - 内容质量反馈 / content-quality-feedback
+               - 使用体验反馈 / user-experience-feedback
+
+            # Workflow
+            1. Detect CONTENT TYPE first by analyzing title and body content
+            2. Detect LANGUAGE based on the primary language used
+            3. Detect AI PLATFORM if ChatGPT, Claude, or Gemini is mentioned
+            4. For chat records: detect applicable content categories
+            5. For prompts: detect applicable application scenarios
+            6. For feedback: detect applicable feedback categories
+            7. Only select labels that exist in {existing_labels}
+            8. If uncertain about any dimension, skip it rather than guessing
+
+            ---
+
+            Existing Labels (existing_labels): {existing_labels}
+
+            ---
+
+            Issue Title (issue_title): {issue_title}
+
+            ---
+
+            Issue Body (issue_body): {issue_body}
+
+            ---
