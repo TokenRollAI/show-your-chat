@@ -2,7 +2,7 @@
 name: "💬 Show 聊天"
 about: 分享有趣的AI聊天对话记录
 title: '[标签] 简要描述(用一句话告诉我们你做了什么)'
-labels: ['+聊天记录', '+中文']
+labels: ['#Chat', '+中文']
 assignees: ''
 
 ---

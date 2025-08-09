@@ -2,7 +2,7 @@
 name: "✨ Show Prompt"
 about: Share high-quality AI prompt templates
 title: '[Tag] Brief Description (Tell us what this prompt does in one sentence)'
-labels: ['+prompt', '+english']
+labels: ['#Prompt', '+english']
 assignees: ''
 
 ---

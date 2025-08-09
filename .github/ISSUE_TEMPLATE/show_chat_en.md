@@ -2,7 +2,7 @@
 name: "💬 Show Chat"
 about: Share interesting AI chat conversation records
 title: '[Tag] Brief Description (Tell us what you did in one sentence)'
-labels: ['+chat-record', '+english']
+labels: ['#Chat', '+english']
 assignees: ''
 
 ---
