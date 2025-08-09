@@ -42,3 +42,6 @@
 
 只需复制内容并粘贴到 Gist 网站。点击更多选项，然后点击 `Create public gist` 按钮获取分享链接。
 
+## 交流
+
+![84614019ee58ee80dadb1e7cc7eed18f](https://github.com/user-attachments/assets/5b9df314-e05b-4ac2-9757-585b9c13c9e6)
