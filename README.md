@@ -1,4 +1,4 @@
-# Code is cheap, show me your CHAT
+# Code is cheap, show me your Chat !
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
