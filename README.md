@@ -2,6 +2,12 @@
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
+## Guide
+
+Go to issues to see [Chat](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Chat%20-label%3A%2B%E4%B8%AD%E6%96%87) and [Prompt](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Prompt%20-label%3A%2B%E4%B8%AD%E6%96%87)
+
+Click [New Issue](https://github.com/TokenRollAI/show-your-chat/issues/new/choose) to share your chat records and prompts.
+
 ## Leaderboard
 
 [Chat: 7 days most comments](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Chat%20label%3A%2Benglish%20sort%3Acomments-desc%20created%3A%3E%40today-1w)

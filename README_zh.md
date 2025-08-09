@@ -2,6 +2,12 @@
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
+## 指南
+
+去 issues 看看 [聊天记录](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Chat%20label%3A%2B%E4%B8%AD%E6%96%87) 和 [提示词](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Prompt%20label%3A%2B%E4%B8%AD%E6%96%87)
+
+点击 [New Issue](https://github.com/TokenRollAI/show-your-chat/issues/new/choose) 分享你的聊天记录和提示词。
+
 ## 榜单
 
 [Chat: 七天最多评论](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Chat%20label%3A%2B%E4%B8%AD%E6%96%87%20sort%3Acomments-desc%20created%3A%3E%40today-1w)
