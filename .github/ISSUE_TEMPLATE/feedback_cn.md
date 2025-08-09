@@ -2,7 +2,7 @@
 name: "📝 反馈"
 about: 对平台、内容或其他方面提供反馈
 title: '[反馈类型] 简要描述'
-labels: ['反馈', '中文']
+labels: ['反馈', '+中文']
 assignees: ''
 
 ---

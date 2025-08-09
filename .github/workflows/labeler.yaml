@@ -73,6 +73,10 @@ jobs:
 
             ---
 
+            Attention: 根据Issue语言选择中文或英文标签, 不需要重复的多语言的标签
+
+            ---
+
             Existing Labels (existing_labels): {existing_labels}
 
             ---

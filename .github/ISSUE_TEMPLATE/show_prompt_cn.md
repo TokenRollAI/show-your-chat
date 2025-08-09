@@ -2,7 +2,7 @@
 name: "✨ Show 提示词"
 about: 分享优质的AI提示词模板
 title: '[平台] 提示词作用 - 简要描述'
-labels: ['提示词', '中文']
+labels: ['+提示词', '+中文']
 assignees: ''
 
 ---

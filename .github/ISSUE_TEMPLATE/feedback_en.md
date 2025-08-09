@@ -2,7 +2,7 @@
 name: "📝 Feedback"
 about: Provide feedback on platform, content or other aspects
 title: '[Feedback Type] Brief Description'
-labels: ['feedback', 'english']
+labels: ['feedback', '+english']
 assignees: ''
 
 ---

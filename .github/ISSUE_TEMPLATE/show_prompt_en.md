@@ -2,7 +2,7 @@
 name: "✨ Show Prompt (English)"
 about: Share high-quality AI prompt templates
 title: '[Platform] Prompt Purpose - Brief Description'
-labels: ['prompt', 'english']
+labels: ['+prompt', '+english']
 assignees: ''
 
 ---
