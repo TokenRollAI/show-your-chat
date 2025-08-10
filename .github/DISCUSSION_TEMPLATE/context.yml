@@ -1,0 +1,62 @@
+title: "[Tag] Brief Description (Tell us what this context does in one sentence)"
+labels: ["#Context", "+english"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚡ Context Sharing
+        
+        Thank you for sharing useful context and background information!
+        
+        > **Quick Guide**：
+        > 1. **Modify Title**：Replace `[Tag]` with appropriate category
+        > 2. **Fill Content**：Provide context, background, or supplementary information
+        > 3. **Share Value**：Explain how this context helps others
+        
+        This is just a template, feel free to customize it.
+
+  - type: textarea
+    id: context_description
+    attributes:
+      label: "📋 Context Description"
+      description: "What context or background information are you sharing?"
+      placeholder: "Describe the context, background, or supplementary information..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context_content
+    attributes:
+      label: "📝 Context Content"
+      description: "Please provide the detailed context content"
+      placeholder: "Paste or write your context content here..."
+      render: markdown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "🏷️ Category Tag"
+      description: "Choose the most appropriate category"
+      options:
+        - "Programming"
+        - "AI/ML"
+        - "Business"
+        - "Research"
+        - "Tutorial"
+        - "Reference"
+        - "Other"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Confirmation"
+      description: "Please confirm the following"
+      options:
+        - label: "I confirm this context is helpful and accurate"
+          required: true
+        - label: "I agree to publicly share this content with the community"
+          required: true
