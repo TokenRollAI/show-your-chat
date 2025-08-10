@@ -51,3 +51,6 @@ jobs:
             Body : {content_body}
 
             ---
+
+            NEVER ADD LABEL which start with `!`
+            ---
