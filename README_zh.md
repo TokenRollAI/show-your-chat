@@ -2,6 +2,8 @@
 
 **Language / 语言**: [English](README.md) | [中文](README_zh.md)
 
+[*Show Your Chat 周报*](https://show-your-chat.tokenroll.ai/)
+
 ## 指南
 
 去 issues 看看 [聊天记录](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Chat%20label%3A%2B%E4%B8%AD%E6%96%87) 和 [提示词](https://github.com/TokenRollAI/show-your-chat/issues?q=is%3Aissue%20state%3Aopen%20label%3A%23Prompt%20label%3A%2B%E4%B8%AD%E6%96%87)
