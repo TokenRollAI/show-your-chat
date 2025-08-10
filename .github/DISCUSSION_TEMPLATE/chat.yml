@@ -7,22 +7,35 @@ body:
         ## 💬 Chat Records Sharing / 聊天记录分享
 
         Thank you for sharing interesting AI chat conversation records!
+
         感谢您分享有趣的AI聊天对话记录！
 
-        > **Quick Guide / 快速指南**：
-        > 1. **Modify Title / 修改标题**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Creative]`, `[Tips]`, `[Life]`, etc. / 将 `[标签]` 替换为合适的分类，如 `[编程]`、`[创意]`、`[技巧]`、`[生活]` 等
-        > 2. **Fill Content / 填写内容**：Prioritize sharing links, if no link available, paste conversation text / 优先分享链接，如无链接可粘贴对话文本
-        > 3. **Share Highlights / 分享亮点**：Briefly explain the value of this conversation / 简要说明这次对话的价值
+        > **Quick Guide**：
+        > 1. **Modify Title**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Creative]`, `[Tips]`, `[Life]`, etc.
+        > 2. **Fill Content**：Prioritize sharing links, if no link available, paste conversation text
+        > 3. **Share Highlights**：Briefly explain the value of this conversation
+
+        > **快速指南**：
+        > 1. **修改标题**：将 `[标签]` 替换为合适的分类，如 `[编程]`、`[创意]`、`[技巧]`、`[生活]` 等
+        > 2. **填写内容**：优先分享链接，如无链接可粘贴对话文本
+        > 3. **分享亮点**：简要说明这次对话的价值
 
         This is just a template, feel free to customize it.
+
         这只是一个模板，请随意自定义。
 
   - type: textarea
     id: inspiration
     attributes:
       label: "⭐"
-      description: "How did you come up with this idea? What was this conversation for? What's interesting about it? / 您是如何想到这个想法的？这次对话是为了什么？有什么有趣的地方？"
-      placeholder: "Share your creative inspiration and the background of this conversation... / 分享您的创意灵感和这次对话的背景..."
+      description: |
+        How did you come up with this idea? What was this conversation for? What's interesting about it?
+
+        您是如何想到这个想法的？这次对话是为了什么？有什么有趣的地方？
+      placeholder: |
+        Share your creative inspiration and the background of this conversation...
+
+        分享您的创意灵感和这次对话的背景...
     validations:
       required: true
 
@@ -30,13 +43,22 @@ body:
     id: share_link
     attributes:
       label: "🔗"
-      description: "If you have a chat record sharing link / 如果您有聊天记录分享链接"
+      description: |
+        If you have a chat record sharing link
+
+        如果您有聊天记录分享链接
       placeholder: "https://..."
 
   - type: textarea
     id: chat_content
     attributes:
       label: "📝"
-      description: "If no sharing link available, paste conversation text here / 如无分享链接，请在此粘贴对话文本"
-      placeholder: "Paste your conversation content... / 粘贴您的对话内容..."
+      description: |
+        If no sharing link available, paste conversation text here
+
+        如无分享链接，请在此粘贴对话文本
+      placeholder: |
+        Paste your conversation content...
+
+        粘贴您的对话内容...
       render: markdown

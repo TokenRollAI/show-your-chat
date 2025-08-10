@@ -9,10 +9,15 @@ body:
         Thank you for sharing useful context !
         感谢您分享有用的上下文！
 
-        > **Quick Guide / 快速指南**：
-        > 1. **Modify Title / 修改标题**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Research]`, `[Tutorial]`, `[Reference]`, etc. / 将 `[标签]` 替换为合适的分类，如 `[编程]`、`[研究]`、`[教程]`、`[参考]` 等
-        > 2. **Fill Content / 填写内容**：Provide context, background, or supplementary information / 提供上下文、背景或补充信息
-        > 3. **Share Value / 分享价值**：Explain how this context helps others / 说明这个上下文如何帮助他人
+        > **Quick Guide**：
+        > 1. **Modify Title**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Research]`, `[Tutorial]`, `[Reference]`, etc.
+        > 2. **Fill Content**：Provide context, background, or supplementary information
+        > 3. **Share Value**：Explain how this context helps others
+
+        > **快速指南**：
+        > 1. **修改标题**：将 `[标签]` 替换为合适的分类，如 `[编程]`、`[研究]`、`[教程]`、`[参考]` 等
+        > 2. **填写内容**：提供上下文、背景或补充信息
+        > 3. **分享价值**：说明这个上下文如何帮助他人
 
         This is just a template, feel free to customize it.
         这只是一个模板，请随意自定义。
@@ -21,8 +26,14 @@ body:
     id: inspiration
     attributes:
       label: "⭐"
-      description: "What context or background information are you sharing? Why is it valuable? / 您分享的是什么上下文或背景信息？为什么它有价值？"
-      placeholder: "Describe the context, background, or supplementary information and its value... / 描述上下文、背景或补充信息及其价值..."
+      description: |
+        What context or background information are you sharing? Why is it valuable?
+
+        您分享的是什么上下文或背景信息？为什么它有价值？
+      placeholder: |
+        Describe the context, background, or supplementary information and its value...
+
+        描述上下文、背景或补充信息及其价值...
     validations:
       required: true
 
@@ -30,13 +41,22 @@ body:
     id: share_link
     attributes:
       label: "🔗"
-      description: "If you have a context sharing link / 如果您有上下文分享链接"
+      description: |
+        If you have a context sharing link
+
+        如果您有上下文分享链接
       placeholder: "https://..."
 
   - type: textarea
     id: context_content
     attributes:
       label: "📝"
-      description: "Please provide the detailed context content / 请提供详细的上下文内容"
-      placeholder: "Paste or write your context content here... / 在此粘贴或编写您的上下文内容..."
+      description: |
+        Please provide the detailed context content
+
+        请提供详细的上下文内容
+      placeholder: |
+        Paste or write your context content here...
+
+        在此粘贴或编写您的上下文内容...
       render: markdown

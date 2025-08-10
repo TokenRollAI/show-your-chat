@@ -7,22 +7,35 @@ body:
         ## ✨ Prompts Sharing / 提示词分享
 
         Thank you for sharing high-quality AI prompt templates!
+
         感谢您分享高质量的AI提示词模板！
 
-        > **Quick Guide / 快速指南**：
-        > 1. **Modify Title / 修改标题**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Writing]`, `[Analysis]`, `[Creative]`, etc. / 将 `[标签]` 替换为合适的分类，如 `[编程]`、`[写作]`、`[分析]`、`[创意]` 等
-        > 2. **Fill Content / 填写内容**：Explain the inspiration and purpose of the prompt, provide usage instructions and complete content / 说明提示词的灵感和目的，提供使用说明和完整内容
-        > 3. **Show Effects / 展示效果**：If you have demo links or usage effects, feel free to share them / 如有演示链接或使用效果，欢迎分享
+        > **Quick Guide**：
+        > 1. **Modify Title**：Replace `[Tag]` with appropriate category, such as `[Programming]`, `[Writing]`, `[Analysis]`, `[Creative]`, etc.
+        > 2. **Fill Content**：Explain the inspiration and purpose of the prompt, provide usage instructions and complete content
+        > 3. **Show Effects**：If you have demo links or usage effects, feel free to share them
+
+        > **快速指南**：
+        > 1. **修改标题**：将 `[标签]` 替换为合适的分类，如 `[编程]`、`[写作]`、`[分析]`、`[创意]` 等
+        > 2. **填写内容**：说明提示词的灵感和目的，提供使用说明和完整内容
+        > 3. **展示效果**：如有演示链接或使用效果，欢迎分享
 
         This is just a template, feel free to customize it.
+
         这只是一个模板，请随意自定义。
 
   - type: textarea
     id: inspiration
     attributes:
       label: "⭐"
-      description: "How did you come up with this prompt? What problem does it solve? What makes it unique? / 您是如何想到这个提示词的？它解决了什么问题？有什么独特之处？"
-      placeholder: "Share your creative inspiration and the background of this prompt... / 分享您的创意灵感和这个提示词的背景..."
+      description: |
+        How did you come up with this prompt? What problem does it solve? What makes it unique?
+
+        您是如何想到这个提示词的？它解决了什么问题？有什么独特之处？
+      placeholder: |
+        Share your creative inspiration and the background of this prompt...
+
+        分享您的创意灵感和这个提示词的背景...
     validations:
       required: true
 
@@ -30,22 +43,37 @@ body:
     id: share_link
     attributes:
       label: "🔗"
-      description: "If you have a demo link or sharing link / 如果您有演示链接或分享链接"
+      description: |
+        If you have a demo link or sharing link
+
+        如果您有演示链接或分享链接
       placeholder: "https://..."
 
   - type: textarea
     id: usage_instructions
     attributes:
       label: "📋"
-      description: "How to use this prompt? Any precautions or applicable scenarios? / 如何使用这个提示词？有什么注意事项或适用场景？"
-      placeholder: "Usage instructions, precautions, applicable scenarios... / 使用方法、注意事项、适用场景..."
+      description: |
+        How to use this prompt? Any precautions or applicable scenarios?
+
+        如何使用这个提示词？有什么注意事项或适用场景？
+      placeholder: |
+        Usage instructions, precautions, applicable scenarios...
+
+        使用方法、注意事项、适用场景...
 
   - type: textarea
     id: prompt_content
     attributes:
-      label: "�"
-      description: "Please provide the complete prompt content / 请提供完整的提示词内容"
-      placeholder: "Paste your prompt content here... / 在此粘贴您的提示词内容..."
+      label: "📝"
+      description: |
+        Please provide the complete prompt content
+
+        请提供完整的提示词内容
+      placeholder: |
+        Paste your prompt content here...
+
+        在此粘贴您的提示词内容...
       render: markdown
 
 
