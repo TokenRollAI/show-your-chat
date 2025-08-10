@@ -7,14 +7,6 @@ assignees: ''
 
 ---
 
-<!--
-
-> **Quick Guide**:
-> 1.  **Modify Title**: Replace `[Feedback]` with specific type, such as `[Suggestion]`, `[Review]`, `[Issue]`, `[Experience]`, etc.
-> 2.  **Describe Issue**: In the `Feedback Content` section, detail your thoughts or problems encountered.
-> 3.  **Provide Suggestions (Optional)**: If you have improvement ideas, share them in the `Improvement Suggestions` section.
-
--->
 
 
 ### 📝 Feedback Content
