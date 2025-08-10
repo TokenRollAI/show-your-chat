@@ -27,42 +27,14 @@ body:
   - type: input
     id: share_link
     attributes:
-      label: "🔗 Share Link / 分享链接"
-      description: "If you have a chat record sharing link / 如果有聊天记录的分享链接，请在这里提供"
+      label: "🔗 Share Link"
+      description: "If you have a chat record sharing link"
       placeholder: "https://..."
 
   - type: textarea
     id: chat_content
     attributes:
-      label: "📝 Chat Record / 对话记录"
-      description: "If no sharing link available, paste conversation text here / 如果没有分享链接，请在这里粘贴对话文本"
-      placeholder: "Paste your conversation content... / 粘贴你的对话内容..."
+      label: "📝 Chat Record"
+      description: "If no sharing link available, paste conversation text here"
+      placeholder: "Paste your conversation content..."
       render: markdown
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ 分类标签"
-      description: "选择最适合的分类"
-      options:
-        - "编程"
-        - "创意"
-        - "技巧"
-        - "生活"
-        - "学习"
-        - "工作"
-        - "娱乐"
-        - "其他"
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "确认事项"
-      description: "请确认以下事项"
-      options:
-        - label: "我确认分享的内容不包含敏感信息"
-          required: true
-        - label: "我同意将此内容公开分享给社区"
-          required: true

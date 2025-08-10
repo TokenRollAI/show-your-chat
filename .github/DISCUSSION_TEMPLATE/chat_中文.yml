@@ -39,30 +39,4 @@ body:
       placeholder: "粘贴你的对话内容..."
       render: markdown
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ 分类标签"
-      description: "选择最适合的分类"
-      options:
-        - "编程"
-        - "创意"
-        - "技巧"
-        - "生活"
-        - "学习"
-        - "工作"
-        - "娱乐"
-        - "其他"
-    validations:
-      required: true
 
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "确认事项"
-      description: "请确认以下事项"
-      options:
-        - label: "我确认分享的内容不包含敏感信息"
-          required: true
-        - label: "我同意将此内容公开分享给社区"
-          required: true

@@ -24,6 +24,13 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: share_link
+    attributes:
+      label: "🔗 分享链接"
+      description: "如果有上下文分享链接，请在这里提供"
+      placeholder: "https://..."
+
   - type: textarea
     id: context_content
     attributes:
@@ -33,30 +40,3 @@ body:
       render: markdown
     validations:
       required: true
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ 分类标签"
-      description: "选择最适合的分类"
-      options:
-        - "编程"
-        - "AI/ML"
-        - "商业"
-        - "研究"
-        - "教程"
-        - "参考"
-        - "其他"
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "确认事项"
-      description: "请确认以下事项"
-      options:
-        - label: "我确认这个上下文是有用且准确的"
-          required: true
-        - label: "我同意将此内容公开分享给社区"
-          required: true

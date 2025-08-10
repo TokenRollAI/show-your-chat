@@ -18,71 +18,34 @@ body:
   - type: textarea
     id: creative_source
     attributes:
-      label: "⭐ 创意来源"
-      description: "你是怎么想到这个提示词的？它解决了什么问题？有什么独特之处呢？快告诉我们吧~"
-      placeholder: "分享你的创意灵感和这个提示词的背景..."
+      label: "⭐ Creative Source"
+      description: "How did you come up with this prompt? What problem does it solve? What makes it unique?"
+      placeholder: "Share your creative inspiration and the background of this prompt..."
     validations:
       required: true
 
   - type: input
     id: demo_link
     attributes:
-      label: "🔗 演示链接"
-      description: "如果有演示链接，请在这里提供"
+      label: "🔗 Demo Link"
+      description: "If you have a demo link, please provide it here"
       placeholder: "https://..."
 
   - type: textarea
     id: usage_instructions
     attributes:
-      label: "📋 使用说明"
-      description: "简单说明如何使用这个提示词，有什么注意事项"
-      placeholder: "使用方法、注意事项、适用场景等..."
+      label: "📋 Usage Instructions"
+      description: "Briefly explain how to use this prompt, any precautions"
+      placeholder: "Usage methods, precautions, applicable scenarios, etc..."
 
   - type: textarea
     id: prompt_content
     attributes:
-      label: "💡 提示词内容"
-      description: "请提供完整的提示词内容"
-      placeholder: "在这里粘贴你的提示词内容..."
+      label: "💡 Prompt Content"
+      description: "Please provide the complete prompt content"
+      placeholder: "Paste your prompt content here..."
       render: shell
     validations:
       required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ 分类标签"
-      description: "选择最适合的分类"
-      options:
-        - "编程"
-        - "写作"
-        - "分析"
-        - "创意"
-        - "翻译"
-        - "学习"
-        - "工作"
-        - "生活"
-        - "其他"
-    validations:
-      required: true
 
-  - type: dropdown
-    id: difficulty
-    attributes:
-      label: "📊 难度等级"
-      description: "这个提示词的使用难度"
-      options:
-        - "初级 - 简单易用"
-        - "中级 - 需要一些调整"
-        - "高级 - 需要深度定制"
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "确认事项"
-      description: "请确认以下事项"
-      options:
-        - label: "我确认这个提示词是原创或已获得授权分享"
-          required: true
-        - label: "我同意将此内容公开分享给社区"
-          required: true

@@ -48,41 +48,4 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ 分类标签"
-      description: "选择最适合的分类"
-      options:
-        - "编程"
-        - "写作"
-        - "分析"
-        - "创意"
-        - "翻译"
-        - "学习"
-        - "工作"
-        - "生活"
-        - "其他"
-    validations:
-      required: true
 
-  - type: dropdown
-    id: difficulty
-    attributes:
-      label: "📊 难度等级"
-      description: "这个提示词的使用难度"
-      options:
-        - "初级 - 简单易用"
-        - "中级 - 需要一些调整"
-        - "高级 - 需要深度定制"
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "确认事项"
-      description: "请确认以下事项"
-      options:
-        - label: "我确认这个提示词是原创或已获得授权分享"
-          required: true
-        - label: "我同意将此内容公开分享给社区"
-          required: true

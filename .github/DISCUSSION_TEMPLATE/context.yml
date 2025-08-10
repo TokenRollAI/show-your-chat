@@ -24,6 +24,13 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: share_link
+    attributes:
+      label: "🔗 Share Link"
+      description: "If you have a context sharing link, please provide it here"
+      placeholder: "https://..."
+
   - type: textarea
     id: context_content
     attributes:
@@ -33,30 +40,3 @@ body:
       render: markdown
     validations:
       required: true
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: "🏷️ Category Tag"
-      description: "Choose the most appropriate category"
-      options:
-        - "Programming"
-        - "AI/ML"
-        - "Business"
-        - "Research"
-        - "Tutorial"
-        - "Reference"
-        - "Other"
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: "Confirmation"
-      description: "Please confirm the following"
-      options:
-        - label: "I confirm this context is helpful and accurate"
-          required: true
-        - label: "I agree to publicly share this content with the community"
-          required: true
